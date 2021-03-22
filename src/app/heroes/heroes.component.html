@@ -1,7 +1,19 @@
 <h2>My Heroes</h2>
 <ul class="heroes">
+    <!--
+        [] vinculación de propiedad
+        [class] Enlace de clase https://docs.angular.lat/guide/attribute-binding#enlace-de-clase
+        [class.selected] -> CSS: .heroes li.selected
+    -->
     <li *ngFor="let hero of heroes" [class.selected]="hero === selectedHero" (click)="onSelect(hero)">
         <span class="badge">{{hero.id}}</span> {{hero.name}}
     </li>
 </ul>
+<!--
+    Enlace de datos unidireccional
+    <valor_selector_componente></valor_selector_componente>
+    selectedHero es el nombre de la propiedad del componente heroes
+    hero es el nombre de la propiedad del componente hero-detail
+    [hero] -> @Input() hero
+-->
 <app-hero-detail [hero]="selectedHero"></app-hero-detail>
