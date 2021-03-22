@@ -11,7 +11,7 @@ Fases:
 5. Agregar navegación en la aplicación.  
 6. Obtener datos del servidor.
   
-[Enlace](https://luisvalles92.github.io/angular-mystore/) | [Tutorial](https://docs.angular.lat/start) | [Repositorio](https://github.com/LuisValles92/angular-mystore)
+[Enlace](https://luisvalles92.github.io/angular-tourheroes/) | [Tutorial](https://docs.angular.lat/tutorial) | [Repositorio](https://github.com/LuisValles92/angular-tourheroes)
   
 # ProyectoTourHeroes
 
