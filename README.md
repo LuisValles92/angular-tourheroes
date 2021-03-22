@@ -1,3 +1,18 @@
+# angular-tourheroes
+_Angular | GitHub Pages_  
+Tutorial: Tour de Héroes - Aplicación desplegada sobre GitHub Pages.  
+Cubre los temas principales: crear un proyecto, componentes, sintaxis de plantilla, enrutamiento, servicios y acceso a datos (API web en memoria) a través de HTTP.  
+Fases:  
+0. Crear un Proyecto.  
+1. El Editor de Héroe.  
+2. Mostrar una lista.  
+3. Crear un componente de función.  
+4. Agregar servicios.  
+5. Agregar navegación en la aplicación.  
+6. Obtener datos del servidor.
+  
+[Enlace](https://luisvalles92.github.io/angular-mystore/) | [Tutorial](https://docs.angular.lat/start) | [Repositorio](https://github.com/LuisValles92/angular-mystore)
+  
 # ProyectoTourHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
