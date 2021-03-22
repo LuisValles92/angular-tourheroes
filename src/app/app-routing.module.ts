@@ -13,6 +13,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
+  //https://docs.angular.lat/api/router/RouterModule
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })

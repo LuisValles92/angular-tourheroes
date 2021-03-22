@@ -11,6 +11,12 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit {
+  /*
+  @Input - Hace que la propiedad esté disponible para ser vinculada por un/unos componente/s externo/s
+  https://docs.angular.lat/api/core/Input
+  https://docs.angular.lat/api/router/ActivatedRoute
+  https://docs.angular.lat/api/common/Location
+  */
   @Input() hero!: Hero;
 
   constructor(

@@ -7,6 +7,7 @@ import { catchError, tap } from 'rxjs/operators';
 import { Hero } from './hero';
 import { MessageService } from './message.service';
 
+//https://docs.angular.lat/api/core/Injectable
 @Injectable({
   providedIn: 'root'
 })
@@ -16,6 +17,7 @@ export class HeroService {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
 
+  //Servicio en servicio
   constructor(private messageService: MessageService, private http: HttpClient) { }
 
   private log(message: string) {

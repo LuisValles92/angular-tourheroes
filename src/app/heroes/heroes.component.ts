@@ -9,6 +9,12 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
+  /*
+  Los componentes no deberían buscar ni guardar datos directamente, deben centrarse en 
+  presentar datos y delegar el acceso a los datos a un servicio.
+  Los servicios son una excelente manera de compartir info. entre clases que no se conocen entre sí.
+  Añadir ! para no inicializar la propiedad
+  */
   heroes!: Hero[];
 
   constructor(private heroService: HeroService) { }

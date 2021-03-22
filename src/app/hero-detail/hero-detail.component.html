@@ -1,6 +1,17 @@
+<!--
+    *ngIf directiva de condición, si existe hero lo muestra
+-->
 <div *ngIf="hero">
+    <!--
+    | Pipe o tubería 
+    https://docs.angular.lat/guide/pipes
+    -->
     <h2>{{hero.name | uppercase}} Details</h2>
     <div><span>id: </span>{{hero.id}}</div>
+    <!--
+    Encuadernación o enlace de datos bidireccional
+    La directiva [(ngModel)] necesita FormsModule para funcionar -> app.module.ts
+    -->
     <div>
         <label>name:
             <input [(ngModel)]="hero.name" placeholder="name" />
